@@ -41,6 +41,8 @@ When service workers are used with the fetch event, you can set up caching of as
 
 This is a Sample [Service-Worker](https://github.com/sharmaaayu981/PWA-Demo-App/blob/master/MyPortfolio/MyPortfolio/service-worker.js) used in my project.
 
+Copy Paste the Content of [script](https://github.com/sharmaaayu981/PWA-Demo-App/blob/master/MyPortfolio/MyPortfolio/js/fun.js) as it is and paste in the bottom of your Html page ( it contains Javascript)
+
 
 ### Load the Service Worker
 To load the service worker, we just add the following to your base HTML template at the end of your <body> tag:
