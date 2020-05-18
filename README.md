@@ -26,7 +26,7 @@ This information will be used as the OS-level metadata for your progressive web 
 
 ### Here is an example web app manifest from my portfolio site
 
-This is a Sample [Manifest.json](https://github.com/sharmaaayu981/PWA-Demo-App/MyPortfolio/MyPortfolio/manifest.json) used in my project.
+This is a Sample [Manifest.json](https://github.com/sharmaaayu981/PWA-Demo-App/blob/master/MyPortfolio/MyPortfolio/manifest.json) used in my project.
 
 ### Add the Manifest to Your Base HTML Template
 
