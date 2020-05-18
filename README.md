@@ -58,4 +58,4 @@ To load the service worker, we just add the following to your base HTML template
 And then deploy these changes –  you should see your service worker posting logs in your browser’s console. If you are testing this from a phone, see platform-specific instructions here for iOS+Safari and here for Chrome+Android.
 
 ### Deploy Your Progressive Web App
-Deploying your web app is going to be specific to how your app is developed. If you don't have a place to put it already, Heroku offers a nice and simple way to host progressive web apps. Using the static buildpack is the fastest way to deploy a static application (i.e. one that is only HTML, JavaScript, and CSS). You can look at my fork of GraphvizOnline for an example of a Heroku-compatible progressive web app. Note that if you deploy this, you will need to edit the start URL in the manifest to the URL that will reach the deployed website – for instance, sandy-beach-3033.herokuapp.com.
+Deploying your web app is going to be specific to how your app is developed. On firebasy or on any server.
