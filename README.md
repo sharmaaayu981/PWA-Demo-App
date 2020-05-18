@@ -73,7 +73,7 @@ To load the service worker, we just add the following to your base HTML template
 And then deploy these changes –  you should see your service worker posting logs in your browser’s console. If you are testing this from a phone, see platform-specific instructions here for iOS+Safari and here for Chrome+Android.
 
 ### Deploy Your Progressive Web App
-Deploying your web app is going to be specific to how your app is developed. On firebasy or on any server.
+Deploying your web app is going to be specific to how your app is developed. On firebase or on any server.
 
 ### Resources
 
