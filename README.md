@@ -1,4 +1,6 @@
 # PWA DEMO APPLICATION
+
+### STEPS
 - Create an app manifest
 - Add it to your base HTML template
 - Create the service worker
@@ -22,38 +24,17 @@ Orientation restrictions (it is unwise to change this from "any" without a hard 
 Any icons for your website to be used on the home screen (see the above manifest generator for autogenerating icons)
 This information will be used as the OS-level metadata for your progressive web app when it is installed.
 
-## Here is an example web app manifest from my portfolio site.
+### Here is an example web app manifest from my portfolio site
 
-{
-    "name": "Christine Dodrill",
-    "short_name": "Christine",
-    "theme_color": "#ffcbe4",
-    "background_color": "#fa99ca",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "https://iayush.web.app",
-    "description": "Blog and Resume for Christine Dodrill",
-    "orientation": "any",
-    "icons": [
-        {
-            
-        }
-    ]
-}
+This is a Sample [Manifest.json](https://github.com/sharmaaayu981/PWA-Demo-App/MyPortfolio/MyPortfolio/Manifest.json) used in my project.
 
 ### Add the Manifest to Your Base HTML Template
+
 I suggest adding the HTML link for the manifest to the lowest level HTML template of your app, or, in the case of a pure client-side web app, its main index.html file, as it needs to be as visible by the browser client trying to install the app. Adding this is simple. Assuming you are hosting this manifest at the path /static/manifest.json, simply add it to the <head> section:
 
-<link rel="manifest" href="/static/manifest.json">
-Create offline.html as an Alias to index.html
-By default, the service worker code below will render /offline.html instead of any resource it can't fetch while offline. Create a file at <your-scope>/offline.html to give your user a more helpful error message, explaining that this data isn't cached and the user is offline.
+<link rel="manifest" href="/manifest.json">
 
-If you are adapting a single-page web app, you might want to make offline.html a symbolic link to your index.html file and have the offline 404 be handled inside there. If users can't get back out of the offline page, it can potentially confuse or strand users at a fairly useless "offline" screen. This obviates a lot of the point of progressive web apps in the first place. Be sure to have some kind of "back" button on all error pages.
-
-In macOS and Linux, you can symbolically link offline.html to index.html like this:
-
-ln -s index.html offline.html
-Now we can create and add the service worker.
+### Now we can create and add the service worker.
 
 ### Create the Service Worker
 When service workers are used with the fetch event, you can set up caching of assets and pages as the user browses. This makes content available offline and loads it significantly faster. We are just going to focus on the offline caching features of service workers today instead of automated background sync, because iOS doesn't support background sync yet (although things are moving in a good direction).
