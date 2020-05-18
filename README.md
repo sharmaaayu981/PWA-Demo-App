@@ -1,4 +1,7 @@
-# PWA DEMO APPLICATION
+# PWA ( PROGRESSIVE WEB APPLICATION ) 
+<img src ="Snapshots/m1.png" width= "19%" height ="50%"> <img src ="Snapshots/m2.png" width= "19%" height ="50%"> <img src ="Snapshots/m3.png" width= "19%" height ="50%"> <img src ="Snapshots/desk.png" width= "40%" height ="50%">
+
+
 
 ### STEPS
 - Create an app manifest
