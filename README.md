@@ -52,6 +52,7 @@ When service workers are used with the fetch event, you can set up caching of as
 This is a Sample [Service-Worker](https://github.com/sharmaaayu981/PWA-Demo-App/blob/master/MyPortfolio/MyPortfolio/service-worker.js) used in my project.
 
 Copy Paste the Content of [script](https://github.com/sharmaaayu981/PWA-Demo-App/blob/master/MyPortfolio/MyPortfolio/js/fun.js) as it is and paste in the bottom of your Html page ( it contains Javascript)
+
 <img src ="Snapshots/SW1.png" width= "50%" height ="50%">
 
 
