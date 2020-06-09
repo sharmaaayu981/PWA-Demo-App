@@ -1,4 +1,4 @@
-# PWA ( PROGRESSIVE WEB APPLICATION ) 
+# PWA - PROGRESSIVE WEB APPLICATION
 <img src ="Snapshots/m1.png" width= "19%" height ="50%"> <img src ="Snapshots/m2.png" width= "19%" height ="50%"> <img src ="Snapshots/m3.png" width= "19%" height ="50%"> <img src ="Snapshots/desk.png" width= "38%" height ="50%">
 
 I am using my Portfolio Website for the DEMO. You can Use any responsive website for the same.
