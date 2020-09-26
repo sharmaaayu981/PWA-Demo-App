@@ -36,7 +36,6 @@ self.addEventListener('fetch', function (event) {
                             '/img/logo.png',
                             '/img/wih.jpg',
                             '/img/post-3.jpg',
-                          
                             '/js/main.js',
                             '/js/vendors/bootstrap.bundle.min.js',
                             '/js/vendors/jquery.easing.min.js',
