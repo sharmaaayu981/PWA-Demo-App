@@ -6,7 +6,8 @@ I am using my Portfolio Website for the DEMO. You can Use any responsive website
 | Name | DEMO | <br>
 | PWA |[Ayush's Portfolio](https://iayush.web.app) | <br>
 | PWA |[Nilay Das's Portfolio](https://inilaydas.web.app) | <br>
-| PWA |[Rahul Singh's Portfolio](https://irahulsingh.web.app) |
+| PWA |[Rahul Singh's Portfolio](https://irahulsingh.web.app) |<br>
+| PWA |[Fauji Travel Agency ](https://faujitravelhp.web.app) |
 
 ### STEPS
 - Create an app manifest
