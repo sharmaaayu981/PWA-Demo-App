@@ -1,0 +1,44 @@
+{
+  "background_color": "#2F5BE7",
+  "display": "standalone",
+  "orientation":"portrait",
+  "theme_color": "#2F5BE7",
+  "short_name": "Ayush Sharma",
+  "name": "Ayush Sharma's Portfolio",
+  "description": "Ayush Sharma's Potfolio Website",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa/icon96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa/icon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa/icon384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+    
+  ],
+  "start_url": "index.html?launcher=true"
+}
